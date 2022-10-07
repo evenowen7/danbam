@@ -1,0 +1,10 @@
+.map-wrapper{
+    max-width: auto;
+    border: 2px solid red;
+}
+
+.googlemap{
+    width: 1530px;
+    height: 625px;
+
+}

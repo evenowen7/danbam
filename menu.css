@@ -1,0 +1,277 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    background-color: #868481;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+    overflow: auto;
+}
+
+.prev,.next{
+    width: 2%;
+    margin-top: 50px;
+    top: 200px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.prev{
+    position: relative;
+    margin-right: 1280px;
+    z-index: 100;
+}
+
+.next{
+    position: relative;
+    margin-left: -45px;
+    z-index: 100;
+    
+}
+
+
+.slider-inner{
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin: bottom 100px;
+    padding-bottom: 50px;
+}
+
+.slider-inner img{
+    width: 50%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider-inner img.active{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    color: black;
+    font-size: 24pt;
+    text-align: center;
+}
+
+.soju{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5em;
+}
+
+.minum1{
+    width: 15%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h3{
+    margin:0;
+    margin-left: 2em; 
+    margin-top: 2em;
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+.harga{
+    color: red;
+}
+
+.icetea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5.5em;
+}
+
+.descript{
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+.minum2{
+    width: 5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.button{
+    border: none;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12pt;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.jajangmyeon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.makan1{
+    width: 12%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h5{
+    margin:0;
+    margin-left: 2em; 
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+.jajangbap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9em;
+}
+
+.haemuljam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10.5em;
+}
+
+.chadoljam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.3em;
+}
+
+.cheesebul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.5em;
+}
+
+.tangsuyuk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5em;
+}
+
+.kimchiji{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8em;
+}
+
+.sundubuji{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6em;
+}
+
+.tteokboki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14em;
+}
+
+.chicken{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11em;
+}
+
+.minum3{
+    width: 3%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.mineral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6em;
+}
+
+.lemon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4.5em;
+}
+
+.minum4{
+    width: 5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.minum5{
+    width: 3.5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.coklat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4em;
+}
+
+.dessert1{
+    width: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.injeolmi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10em;
+}
+
+.orange{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10.3em;
+}
+
+.oreo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11.5em;
+}
+
+.greentea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9em;
+}
